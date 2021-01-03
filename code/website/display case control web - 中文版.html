@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<html>
+<head>
+    <style type="text/css">
+        h {
+            font-family: arial;
+            font-size: 30px
+        }
+
+        p {
+            font-family: arial;
+            font-size: 15px
+        }
+    </style>
+    <title>RGB display case</title>
+</head>
+<body>
+    <h style="background-color:rgba(0,255,255,0.5)">RGB display case web control</h>
+    <p>
+        project site:
+        <a href="https://github.com/sethome2/The-RGB-display-case">GITHUB</a>
+    </p>
+    <hr>
+    <h>WIFI 设置</h>
+    <from action="/changWIFIConf" method= "POST">
+        <p>
+            WIFI名称
+            <input type="text" name:SSID>
+        </p>
+        <p>
+            WIFI密码
+            <input type="text" name:password>
+        </p>
+        <input type="submit" value="更改">
+    </from>
+    <hr>
+    <h>动画设置</h>
+    <form action="/setColorAndAnima" method= "POST">
+        <p>
+            后<input type="color" name="back">
+            <select name="anima">
+                <option value="1" selected>alwaysOn</option>
+                <option value="2">Breath</option>
+                <option value="3">AllColorChange</option>
+                <option value="4">runningLigth</option>
+            </select>
+        </p>
+        <p>
+            左<input type="color" name="left">
+            <select name="anima">
+                <option value="1" selected>alwaysOn</option>
+                <option value="2">Breath</option>
+                <option value="3">AllColorChange</option>
+                <option value="4">runningLigth</option>
+            </select>
+        </p>
+        <p>
+            前<input type="color" name="front">
+            <select name="anima">
+                <option value="1" selected>alwaysOn</option>
+                <option value="2">Breath</option>
+                <option value="3">AllColorChange</option>
+                <option value="4">runningLigth</option>
+            </select>
+        </p>
+        <p>
+            右<input type="color" name="right">
+            <select name="anima">
+                <option value="1" selected>alwaysOn</option>
+                <option value="2">Breath</option>
+                <option value="3">AllColorChange</option>
+                <option value="4">runningLigth</option>
+            </select>
+        </p>
+        <p>
+            上<input type="color" name="top">
+            <select name="anima">
+                <option value="1" selected>alwaysOn</option>
+                <option value="2">Breath</option>
+                <option value="3">AllColorChange</option>
+                <option value="4">runningLigth</option>
+            </select>
+        </p>
+            <input type="submit" value="更改">
+    </form>
+    <hr>
+    <h>关于</h>
+    <p>暂无</p>
+</body>
+</html>

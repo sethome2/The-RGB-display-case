@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        h {
+            font-family: arial;
+            font-size: 30px
+        }
+
+        p {
+            font-family: arial;
+            font-size: 15px
+        }
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>RGB display case</title>
+</head>
+<body>
+    <h style="background-color:rgba(0,255,255,0.5)">RGB display case web control</h>
+    <p>
+        project site:
+        <a href="https://github.com/sethome2/The-RGB-display-case">GITHUB</a>
+    </p>
+    <hr>
+    <h>WIFI setting</h>
+    <from action="/changWIFIConf" method= "POST">
+        <p>
+            WIFI ssid
+            <input type="text" name = "S">
+        </p>
+        <p>
+            WIFI password
+            <input type="text" name="P">
+        </p>
+        <input type="submit" value="change">
+    </from>
+    <hr>
+    <h>animation setting</h>
+    <form action="/setColorAndAnima" method= "POST">
+        <p>
+            back side<input type="color" name="B">
+            <select name="A">
+                <option value="1" selected>alwaysOn</option>
+                <option value="2">Breath</option>
+                <option value="3">AllColorChange</option>
+                <option value="4">runningLigth</option>
+            </select>
+        </p>
+        <p>
+            left side<input type="color" name="L">
+            <select name="A">
+                <option value="1" selected>alwaysOn</option>
+                <option value="2">Breath</option>
+                <option value="3">AllColorChange</option>
+                <option value="4">runningLigth</option>
+            </select>
+        </p>
+        <p>
+            front side<input type="color" name="F">
+            <select name="A">
+                <option value="1" selected>alwaysOn</option>
+                <option value="2">Breath</option>
+                <option value="3">AllColorChange</option>
+                <option value="4">runningLigth</option>
+            </select>
+        </p>
+        <p>
+            right side<input type="color" name="R">
+            <select name="A">
+                <option value="1" selected>alwaysOn</option>
+                <option value="2">Breath</option>
+                <option value="3">AllColorChange</option>
+                <option value="4">runningLigth</option>
+            </select>
+        </p>
+        <p>
+            top side<input type="color" name="T">
+            <select name="A">
+                <option value="1" selected>alwaysOn</option>
+                <option value="2">Breath</option>
+                <option value="3">AllColorChange</option>
+                <option value="4">runningLigth</option>
+            </select>
+        </p>
+            <input type="submit" value="change">
+    </form>
+    <hr>
+    <h>about</h>
+    <p>NA</p>
+</body>
+</html>
