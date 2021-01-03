@@ -1,4 +1,4 @@
-The RGB display case（ver 2.2）
+The RGB display case（ver 2.3）
 
 author:sethome(cc/相相) PS:all is one man,but three names.(so strange,lol)
 
@@ -14,6 +14,6 @@ Because of chinese university admission mechanism,I was admitted to Bioengineeri
 
 So this project progress is very slow....................................................... Now the code was moved to vscode editor.
 
-Will come funtion(ver2.3）: 1.web site control. 2.more animation and perfect LED management code.
+Will come funtion(ver2.3): 1.web site control. 2.more animation and perfect LED management code.
 
 Now knew problem(ver2.2): 1.All project mixed with Chinese and English. 2.no any description.
