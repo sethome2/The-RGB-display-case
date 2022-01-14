@@ -264,37 +264,18 @@ c:\Users\sethome\Desktop\The-RGB-display-case\build\sketch\RGB-display-code.ino.
  c:\Users\sethome\Desktop\The-RGB-display-case\build\sketch\LED.hpp \
  c:\Users\sethome\Desktop\The-RGB-display-case\build\sketch\WiFi.hpp \
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.6/tools/sdk/include/newlib/config.h \
+ C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.6\libraries\Update\src/Update.h \
+ C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.6\cores\esp32/MD5Builder.h \
+ C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.6/tools/sdk/include/esp32/rom/md5_hash.h \
  c:\Users\sethome\Desktop\The-RGB-display-case\build\sketch\homekit.hpp \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/arduino_homekit_server.h \
- C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.6\libraries\WiFi\src/WiFiServer.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/constants.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/base64.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/crypto.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/wolfssl/wolfcrypt/ed25519.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/wolfssl/wolfcrypt/types.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/wolfssl/wolfcrypt/settings.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/wolfssl/wolfcrypt/visibility.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/user_settings.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/homekit_debug.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/esp_xpgm.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/wolfssl/wolfcrypt/wc_port.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/wolfssl/wolfcrypt/fe_operations.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/wolfssl/wolfcrypt/ge_operations.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/wolfssl/wolfcrypt/random.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/wolfssl/wolfcrypt/sha512.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/wolfssl/wolfcrypt/port/Espressif/esp32-crypt.h \
- C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.6/tools/sdk/include/soc/soc/hwcrypto_reg.h \
- C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.6/tools/sdk/include/esp32/rom/sha.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/wolfssl/wolfcrypt/curve25519.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/pairing.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/storage.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/query_params.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/json.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/port.h \
- C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.6/tools/sdk/include/spi_flash/esp_spi_flash.h \
- C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.6/tools/sdk/include/nvs_flash/nvs.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/cQueue.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/homekit/homekit.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/homekit/types.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/homekit/tlv.h \
- C:\Users\sethome\Documents\Arduino\libraries\Arduino-HomeKit-ESP32-master\src/http_parser.h
+ C:\Users\sethome\Documents\Arduino\libraries\ESPHap/homeintegration.h \
+ C:\Users\sethome\Documents\Arduino\libraries\ESPHap/port_x.h \
+ C:\Users\sethome\Documents\Arduino\libraries\ESPHap/elgato.h \
+ C:\Users\sethome\Documents\Arduino\libraries\ESPHap/homekit.h \
+ C:\Users\sethome\Documents\Arduino\libraries\ESPHap/types.h \
+ C:\Users\sethome\Documents\Arduino\libraries\ESPHap/tlv.h \
+ C:\Users\sethome\Documents\Arduino\libraries\ESPHap/characteristics.h \
+ C:\Users\sethome\Documents\Arduino\libraries\ESPHap/storage.h \
+ C:\Users\sethome\Documents\Arduino\libraries\ESPHap/pairing.h \
+ C:\Users\sethome\Documents\Arduino\libraries\ESPHap/crypto.h \
+ C:\Users\sethome\Documents\Arduino\libraries\ESPHap/storage_ex.h

@@ -1,12 +1,11 @@
 # 1 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino"
-# 1 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino"
 /*
 
  * @Author: your name
 
  * @Date: 2021-09-12 11:05:20
 
- * @LastEditTime: 2021-09-24 21:24:27
+ * @LastEditTime: 2021-12-28 01:13:28
 
  * @LastEditors: Please set LastEditors
 
@@ -56,12 +55,19 @@ void setup()
 
   WiFi_config::init();
 
-  if (config::homeKitStatus)
+  if (config::homeKitStatus) //启动homekit
   {
-    while (!WiFi_config::connect())
-      delay(1000);
+    for (int i = 0; i < 10; i++) //等待10s，让wifi链接
+      if (!WiFi_config::connect())
+        break;
+      else
+        delay(1000);
+
     homeKit::init();
   }
+  else
+    homeKit::disenable();
+
   Web::init();
   LED::init();
 

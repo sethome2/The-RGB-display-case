@@ -2,7 +2,7 @@
 /*
  * @Author: your name
  * @Date: 2021-09-16 19:55:32
- * @LastEditTime: 2021-10-11 00:08:31
+ * @LastEditTime: 2021-12-28 01:30:37
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \The-RGB-display-case\code\RGB-display-code\LED.hpp
@@ -31,24 +31,22 @@ namespace LED
 {
    LED_anima::areaManage<numLED> anima; //LED动画类
 
-   Ticker updataTicker; //更新LED的定时器
-
    //LED 状态
    bool status = true;
    void open() { status = true; }
-   void close()
-   {
-      status = false;
-      for (int i = 0; i < numLED; i++)
-         LED_sendbuff[i] = CRGB(0x000000);
+   void close() { status = false; }
 
-      FastLED.show();
-   }
-
-   void change() //根据动画函数改变LED颜色
+   Ticker updataTicker; //更新LED的定时器
+   void change()        //根据动画函数改变LED颜色
    {
       if (!status)
+      {
+         for (int i = 0; i < numLED; i++)
+            LED_sendbuff[i] = CRGB(0x000000);
+
+         FastLED.show();
          return;
+      }
 
       anima.update();
       for (int i = 0; i < numLED; i++)
@@ -56,7 +54,20 @@ namespace LED
 
       FastLED.show();
    }
-   
+
+   Ticker autoOpen_close; //自动开关
+   void cheakTime()
+   {
+      tm nowTime;
+      getLocalTime(&nowTime);
+      if (nowTime.tm_hour == atoi(config::closeTime.substr(0, 2).c_str()) &&
+          nowTime.tm_min == atoi(config::closeTime.substr(3, 2).c_str()))
+         close();
+      if (nowTime.tm_hour == atoi(config::openTime.substr(0, 2).c_str()) &&
+          nowTime.tm_min == atoi(config::openTime.substr(3, 2).c_str()))
+         open();
+   }
+
    void init()
    {
       FastLED.addLeds<WS2812B, LED_PIN, GRB>(LED_sendbuff, numLED);
@@ -77,9 +88,11 @@ namespace LED
 
       if (config::LED_animaJson == "")
       {
-         anima.addArea("fuck", "{\"LED_id\":[0],\"anima\":{\"color\":{\"1\":{\"argv\":{\"frame\":\"1000\"},\"name\":\"colorFlow\"}}},\"setColor\":11162881}");
+         anima.addArea("fuck", "{\"LED_id\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31],\"anima\":{\"color\":{\"1\":{\"argv\":{\"frame\":\"1000\"},\"name\":\"colorFlow\"}},\"LEDs\":{\"1\":{\"name\":\"flow\",\"argv\":{\"frame\":\"100\"}}}},\"setColor\":11162881}");
          Serial.println("init anima.");
       }
       updataTicker.attach(TickerUpdataSpeed, change); //设定定时器
+
+      autoOpen_close.attach(10, cheakTime); //设定定时器
    }
 }; // namespace LED

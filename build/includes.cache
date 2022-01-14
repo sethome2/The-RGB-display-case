@@ -51,16 +51,16 @@
   },
   {
     "Sourcefile": "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\build\\sketch\\RGB-display-code.ino.cpp",
-    "Include": "arduino_homekit_server.h",
-    "Includepath": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src"
+    "Include": "Update.h",
+    "Includepath": "C:\\Users\\sethome\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.6\\libraries\\Update\\src"
   },
   {
     "Sourcefile": "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\build\\sketch\\RGB-display-code.ino.cpp",
-    "Include": "",
-    "Includepath": null
+    "Include": "homeintegration.h",
+    "Includepath": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap"
   },
   {
-    "Sourcefile": "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\build\\sketch\\led_accessory.c",
+    "Sourcefile": "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\build\\sketch\\RGB-display-code.ino.cpp",
     "Include": "",
     "Includepath": null
   },
@@ -220,427 +220,472 @@
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\accessories.c",
+    "Sourcefile": "C:\\Users\\sethome\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.6\\libraries\\Update\\src\\HttpsOTAUpdate.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\arduino_homekit_server_esp32.cpp",
+    "Sourcefile": "C:\\Users\\sethome\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.6\\libraries\\Update\\src\\Updater.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\arduino_homekit_server_esp8266.cpp",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\aa.c",
+    "Include": "wolfssl.h",
+    "Includepath": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL"
+  },
+  {
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\aa.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\accessories.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\arduino_homekit_server.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\bench.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\cJSON_Utils.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\cJSON_memory.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\cQueue.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\crypto.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\debug.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\base64.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\elgato.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\cJSON.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\esphap_base64.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\cQueue.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\homeintegration.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\crypto.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\homekitintegrationcpp.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\homekit_debug.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\http_parser.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\http_parser.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\json.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\json.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\mdnsA8266.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\port.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\mdnsresponder.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\query_params.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\pairing.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\storage.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\port.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\tlv.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\query_params.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\types.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\server.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\watchdog.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\serverA8266.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\aes.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\storage.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\arc4.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\tlv.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\asm.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\watchdog.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\asn.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\ESPHap\\xrtos.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\blake2b.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\aes.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\blake2s.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\arc4.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\camellia.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\asm.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\chacha.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\asn.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\chacha20_poly1305.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\async.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\cmac.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\blake2b.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\coding.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\camellia.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\compress.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\chacha.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\cpuid.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\chacha20_poly1305.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\cryptocb.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\cmac.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\curve25519.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\coding.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\des3.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\compress.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\dh.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\cpuid.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\dsa.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\crl.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\ecc.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\curve25519.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\ecc_fp.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\des3.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\ed25519.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\dh.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\error.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\dsa.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\evp.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\ecc.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\fe_low_mem.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\ecc_fp.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\fe_operations.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\ed25519.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\ge_low_mem.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\error.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\ge_operations.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\fe_low_mem.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\hash.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\fe_operations.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\hc128.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\ge_low_mem.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\hmac.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\ge_operations.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\idea.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\hash.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\integer.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\hc128.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\logging.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\hmac.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\md2.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\idea.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\md4.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\integer.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\md5.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\internal.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\memory.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\keys.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\misc.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\logging.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\pkcs12.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\md2.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\pkcs7.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\md4.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\poly1305.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\md5.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\port\\Espressif\\esp32_aes.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\memory.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\port\\Espressif\\esp32_mp.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\misc.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\port\\Espressif\\esp32_sha.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\ocsp.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\port\\Espressif\\esp32_util.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\pkcs12.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\rabbit.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\pkcs7.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\random.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\poly1305.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\ripemd.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\pwdbased.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\rsa.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\rabbit.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\sha.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\random.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\sha256.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\ripemd.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\sha3.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\rsa.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\sha512.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\sha.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\signature.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\sha256.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\sp_arm32.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\sha3.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\sp_arm64.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\sha512.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\sp_armthumb.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\signature.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\sp_c32.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\sniffer.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\sp_c64.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\sp.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\sp_cortexm.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\srp.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\sp_int.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\ssl.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\sp_x86_64.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\tfm.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\srp.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\tls.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\tfm.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\tls13.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\wc_encrypt.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\wc_encrypt.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\wc_pkcs11.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\wc_port.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\wc_port.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\wolfevent.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\wolfevent.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\wolfio.c",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\Arduino-HomeKit-ESP32-master\\src\\wolfcrypt\\src\\wolfmath.c",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\wolfSSL\\wolfmath.c",
     "Include": "",
     "Includepath": null
   }
