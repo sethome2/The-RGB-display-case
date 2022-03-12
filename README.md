@@ -1,4 +1,12 @@
-The RGB display case（ver 2.3）
+<!--
+ * @Author: sethome
+ * @Date: 2021-11-11 00:31:27
+ * @LastEditTime: 2022-03-12 20:33:03
+ * @LastEditors: Please set LastEditors
+ * @Description: RGB-display-case md file
+ * @FilePath: \The-RGB-display-case\README.md
+-->
+The RGB display case（ver 3.0）
 
 author:sethome(cc/相相) PS:all is one man,but three names.(so strange,lol)
 
@@ -6,6 +14,8 @@ The RGB display case can make your exhibits more better. The display case used e
       (中文)https://www.bilibili.com/video/BV1Lk4y127xm/ 
       (English)
 
+'''
+// old readme
 The project may be open sourced under the lgpl protocol. And I will keep my best to updata function and improved design,so I think it's worthy of your "star it" and follow up.
 
 And you can donwload the "fast_make" folder ，which have many files and manual to help you make the display case at short time.
@@ -17,3 +27,4 @@ So this project progress is very slow...........................................
 Will come funtion(ver2.3): 1.web site control. 2.more animation and perfect LED management code.
 
 Now knew problem(ver2.2): 1.All project mixed with Chinese and English. 2.no any description.
+'''
