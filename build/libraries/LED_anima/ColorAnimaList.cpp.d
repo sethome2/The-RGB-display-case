@@ -3,10 +3,6 @@ c:\Users\sethome\Desktop\The-RGB-display-case\build\libraries\LED_anima\ColorAni
  C:\Users\sethome\Documents\Arduino\libraries\LED_anima\ColorAnimaList.h \
  C:\Users\sethome\Documents\Arduino\libraries\LED_anima\setting.h \
  C:\Users\sethome\Documents\Arduino\libraries\LED_anima\BaseDataClass.h \
- C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.6/tools/sdk/include/newlib/stdint.h \
- C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.6/tools/sdk/include/newlib/machine/_default_types.h \
- C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.6/tools/sdk/include/newlib/sys/features.h \
- C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.6/tools/sdk/include/newlib/sys/_intsup.h \
  C:\Users\sethome\Documents\Arduino\libraries\LED_anima\ClassFactory.hpp \
  c:\users\sethome\documents\arduino\libraries\led_anima\3dr_part\jsonxx\json.hpp \
  c:\users\sethome\documents\arduino\libraries\led_anima\3dr_part\jsonxx\json_basic.hpp \

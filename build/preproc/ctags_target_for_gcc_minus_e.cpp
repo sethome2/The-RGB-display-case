@@ -1,11 +1,11 @@
 # 1 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino"
 /*
 
- * @Author: your name
+ * @Author: sethome
 
  * @Date: 2021-09-12 11:05:20
 
- * @LastEditTime: 2021-12-28 01:13:28
+ * @LastEditTime: 2022-02-05 13:53:37
 
  * @LastEditors: Please set LastEditors
 
@@ -38,7 +38,7 @@
 
 # 31 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino" 2
 
-// #include "coredecls.h"
+# 33 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino" 2
 
 //C&C++库
 # 36 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino" 2
@@ -70,19 +70,12 @@ void setup()
 
   Web::init();
   LED::init();
-
-  pinMode(13 /*LED引脚 D4 D1*/, 0x02);
-  digitalWrite(13 /*LED引脚 D4 D1*/, false);
-
-  Serial.println(config::homeKitName.c_str());
 }
 void loop()
 {
   if (config::homeKitStatus)
-    while (1)
-    {
-      homeKit::loop();
-      Web::loop();
-    }
+    homeKit::loop();
   Web::loop();
+  Serial.printf("%lld\n",ESP.getFreeHeap());
+  //FastLED.show();
 }

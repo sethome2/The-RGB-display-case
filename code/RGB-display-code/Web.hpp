@@ -1,7 +1,7 @@
 /*
  * @Author: sethome
  * @Date: 2021-09-16 12:42:44
- * @LastEditTime: 2021-12-27 10:12:52
+ * @LastEditTime: 2022-02-03 19:47:55
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \The-RGB-display-case\code\RGB-display-code\WebControl.hpp
@@ -176,6 +176,7 @@ namespace Web
   void onReboot()
   {
     server.send(200, "text/html", "<h1>Rebooting...</h1><script type=\"text/javascript\">function jumurl(){self.location = '/';}setTimeout(jumurl,4000);</script>");
+    delay(2500);
     ESP.restart();
   }
   void onCloseAP()

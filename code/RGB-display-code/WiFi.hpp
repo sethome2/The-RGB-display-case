@@ -9,7 +9,7 @@
 
 #pragma once
 
-#include "config.h"
+#include "config.hpp"
 
 #include "ESPmDNS.h"
 

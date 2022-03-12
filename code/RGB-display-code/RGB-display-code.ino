@@ -1,7 +1,7 @@
 /*
- * @Author: your name
+ * @Author: sethome
  * @Date: 2021-09-12 11:05:20
- * @LastEditTime: 2021-12-28 01:13:28
+ * @LastEditTime: 2022-02-05 13:53:37
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \The-RGB-display-case\code\RGB-display-code\RGB-display-code.ino
@@ -29,7 +29,7 @@
 
 #include "Ticker.h"
 
-// #include "coredecls.h"
+#include "esp_int_wdt.h"
 
 //C&C++库
 #include "string"
@@ -59,19 +59,12 @@ void setup()
 
   Web::init();
   LED::init();
-
-  pinMode(LED_PIN, OUTPUT);
-  digitalWrite(LED_PIN, false);
-
-  Serial.println(config::homeKitName.c_str());
 }
 void loop()
 {
   if (config::homeKitStatus)
-    while (1)
-    {
-      homeKit::loop();
-      Web::loop();
-    }
+    homeKit::loop();
   Web::loop();
+  Serial.printf("%lld\n",ESP.getFreeHeap());
+  //FastLED.show();
 }
