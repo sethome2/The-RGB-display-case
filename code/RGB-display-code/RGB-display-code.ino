@@ -1,12 +1,12 @@
 /*
  * @Author: sethome
  * @Date: 2021-09-12 11:05:20
- * @LastEditTime: 2022-02-05 13:53:37
+ * @LastEditTime: 2022-03-13 22:56:23
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \The-RGB-display-case\code\RGB-display-code\RGB-display-code.ino
  */
-//made by sethome
+// made by sethome
 
 //第三方库
 #include "FastLED.h" //LED控制开源库
@@ -21,7 +21,7 @@
 #include "LED.hpp"
 #include "homekit.hpp"
 
-//ESP32支持库
+// ESP32支持库
 #include "WiFi.h"
 #include "WiFiClient.h"
 #include "WebServer.h"
@@ -29,9 +29,8 @@
 
 #include "Ticker.h"
 
-#include "esp_int_wdt.h"
-
-//C&C++库
+#include "esp_task_wdt.h"
+// C&C++库
 #include "string"
 
 void setup()
@@ -65,6 +64,9 @@ void loop()
   if (config::homeKitStatus)
     homeKit::loop();
   Web::loop();
-  Serial.printf("%lld\n",ESP.getFreeHeap());
-  //FastLED.show();
+
+  // disableLoopWDT();
+  // disableCore0WDT();
+  // Serial.printf("%lld\n",ESP.getFreeHeap());
+  // FastLED.show();
 }

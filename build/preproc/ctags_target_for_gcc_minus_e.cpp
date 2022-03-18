@@ -5,7 +5,7 @@
 
  * @Date: 2021-09-12 11:05:20
 
- * @LastEditTime: 2022-02-05 13:53:37
+ * @LastEditTime: 2022-03-13 22:56:23
 
  * @LastEditors: Please set LastEditors
 
@@ -15,7 +15,7 @@
 
  */
 # 9 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino"
-//made by sethome
+// made by sethome
 
 //第三方库
 # 13 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino" 2
@@ -30,7 +30,7 @@
 
 # 23 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino" 2
 
-//ESP32支持库
+// ESP32支持库
 # 26 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino" 2
 # 27 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino" 2
 # 28 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino" 2
@@ -38,13 +38,12 @@
 
 # 31 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino" 2
 
-# 33 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino" 2
 
-//C&C++库
-# 36 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino" 2
+// C&C++库
+# 35 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino" 2
 
 
-# 37 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino"
+# 36 "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\code\\RGB-display-code\\RGB-display-code.ino"
 void setup()
 {
   Serial.begin(115200);
@@ -76,6 +75,9 @@ void loop()
   if (config::homeKitStatus)
     homeKit::loop();
   Web::loop();
-  Serial.printf("%lld\n",ESP.getFreeHeap());
-  //FastLED.show();
+
+  // disableLoopWDT();
+  // disableCore0WDT();
+  // Serial.printf("%lld\n",ESP.getFreeHeap());
+  // FastLED.show();
 }

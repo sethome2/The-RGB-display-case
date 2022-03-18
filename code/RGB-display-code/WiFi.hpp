@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-09-16 15:23:17
- * @LastEditTime: 2021-12-27 10:42:13
+ * @LastEditTime: 2022-03-13 01:25:03
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \The-RGB-display-case\code\RGB-display-code\WiFi.hpp
@@ -17,12 +17,12 @@ namespace WiFi_config
 {
   void init()
   {
-    WiFi.mode(WIFI_AP_STA);
+    WiFi.mode(WIFI_AP);
     WiFi.hostname(config::moduleName.c_str());
 
     //默认IP地址为192.168.4.1
     WiFi.softAP(config::APname.c_str(), config::APpassword.c_str());
-    WiFi.begin(config::STAname.c_str(), config::STApassword.c_str());
+    //WiFi.begin(config::STAname.c_str(), config::STApassword.c_str());
 
     MDNS.begin(config::moduleName.c_str());
     MDNS.addService("https", "tcp", 80);

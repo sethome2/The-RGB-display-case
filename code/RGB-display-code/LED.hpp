@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-09-16 19:55:32
- * @LastEditTime: 2022-02-05 13:53:20
+ * @LastEditTime: 2022-03-13 23:25:32
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \The-RGB-display-case\code\RGB-display-code\LED.hpp
@@ -13,6 +13,8 @@
 
 #include "LED_anima.hpp"
 #include "FastLED.h"
+
+#include "esp_task_wdt.h"
 
 #define BACK_LED_NUM 8
 #define LEFT_LED_NUM 8
@@ -44,7 +46,7 @@ namespace LED
          for (int i = 0; i < numLED; i++)
             LED_sendbuff[i] = CRGB(0x000000);
 
-         //FastLED.show();
+         FastLED.show();
          return;
       }
 
@@ -52,7 +54,7 @@ namespace LED
       for (int i = 0; i < numLED; i++)
          LED_sendbuff[i] = CRGB(anima.LEDs[i].RGB());
 
-      //FastLED.show();
+      FastLED.show();
    }
 
    Ticker autoOpen_close; //自动开关
@@ -91,7 +93,7 @@ namespace LED
          anima.addArea("fuck", "{\"LED_id\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31],\"anima\":{\"color\":{\"1\":{\"argv\":{\"frame\":\"1000\"},\"name\":\"colorFlow\"}},\"LEDs\":{\"1\":{\"name\":\"flow\",\"argv\":{\"frame\":\"100\"}}}},\"setColor\":11162881}");
          Serial.println("init anima.");
       }
-      updataTicker.attach(TickerUpdataSpeed, change); //设定定时器
+      updataTicker.attach(1, change); //设定定时器
 
       autoOpen_close.attach(10, cheakTime); //设定定时器
    }

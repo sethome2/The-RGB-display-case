@@ -13,4 +13,7 @@ c:\Users\sethome\Desktop\The-RGB-display-case\build\libraries\LED_anima\LEDsAnim
  c:\users\sethome\documents\arduino\libraries\led_anima\3dr_part\jsonxx\json_parser.hpp \
  c:\users\sethome\documents\arduino\libraries\led_anima\3dr_part\jsonxx\json_unicode.hpp \
  c:\users\sethome\documents\arduino\libraries\led_anima\3dr_part\jsonxx\json_serializer.hpp \
- c:\users\sethome\documents\arduino\libraries\led_anima\3dr_part\jsonxx\json_utils.hpp
+ c:\users\sethome\documents\arduino\libraries\led_anima\3dr_part\jsonxx\json_utils.hpp \
+ C:\Users\sethome\Documents\Arduino\libraries\LED_anima\LEDsAnima/flow.cpp \
+ C:\Users\sethome\Documents\Arduino\libraries\LED_anima\LEDsAnima/randomFlash.cpp \
+ C:\Users\sethome\Documents\Arduino\libraries\LED_anima\LEDsAnima/colorFlow.cpp

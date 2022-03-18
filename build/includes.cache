@@ -12,7 +12,7 @@
   {
     "Sourcefile": "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\build\\sketch\\RGB-display-code.ino.cpp",
     "Include": "FastLED.h",
-    "Includepath": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED\\src"
+    "Includepath": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED-3.5.0\\src"
   },
   {
     "Sourcefile": "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\build\\sketch\\RGB-display-code.ino.cpp",
@@ -65,57 +65,57 @@
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED\\src\\FastLED.cpp",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED-3.5.0\\src\\FastLED.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED\\src\\bitswap.cpp",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED-3.5.0\\src\\bitswap.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED\\src\\colorpalettes.cpp",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED-3.5.0\\src\\colorpalettes.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED\\src\\colorutils.cpp",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED-3.5.0\\src\\colorutils.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED\\src\\hsv2rgb.cpp",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED-3.5.0\\src\\hsv2rgb.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED\\src\\lib8tion.cpp",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED-3.5.0\\src\\lib8tion.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED\\src\\noise.cpp",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED-3.5.0\\src\\noise.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED\\src\\platforms\\esp\\32\\clockless_rmt_esp32.cpp",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED-3.5.0\\src\\platforms\\esp\\32\\clockless_rmt_esp32.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED\\src\\platforms.cpp",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED-3.5.0\\src\\platforms.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED\\src\\power_mgt.cpp",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED-3.5.0\\src\\power_mgt.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED\\src\\wiring.cpp",
+    "Sourcefile": "C:\\Users\\sethome\\Documents\\Arduino\\libraries\\FastLED-3.5.0\\src\\wiring.cpp",
     "Include": "",
     "Includepath": null
   },

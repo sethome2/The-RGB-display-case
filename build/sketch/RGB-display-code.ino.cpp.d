@@ -1,11 +1,11 @@
 c:\Users\sethome\Desktop\The-RGB-display-case\build\sketch\RGB-display-code.ino.cpp.o: \
  c:\Users\sethome\Desktop\The-RGB-display-case\build\sketch\RGB-display-code.ino.cpp \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/FastLED.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/cpp_compat.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/FastLED.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/fastled_config.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/led_sysdefs.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/platforms/esp/32/led_sysdefs_esp32.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/FastLED.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/cpp_compat.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/FastLED.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/fastled_config.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/led_sysdefs.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/platforms/esp/32/led_sysdefs_esp32.h \
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2\cores\esp32/esp32-hal.h \
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2/tools/sdk/esp32c3/include/esp_system/include/esp_system.h \
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2/tools/sdk/esp32c3/include/esp_common/include/esp_err.h \
@@ -162,40 +162,40 @@ c:\Users\sethome\Desktop\The-RGB-display-case\build\sketch\RGB-display-code.ino.
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2/tools/sdk/esp32c3/include/spi_flash/include/esp_spi_flash.h \
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2/tools/sdk/esp32c3/include/spi_flash/include/esp_spi_flash_counters.h \
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2\variants\esp32c3/pins_arduino.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/fastled_delay.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/bitswap.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/controller.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/pixeltypes.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/lib8tion.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/lib8tion/math8.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/lib8tion/scale8.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/lib8tion/scale8.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/lib8tion/random8.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/lib8tion/trig8.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/color.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/fastpin.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/fastspi_types.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/dmx.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/platforms.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/platforms/esp/32/fastled_esp32.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/platforms/esp/32/fastpin_esp32.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/platforms/esp/32/clockless_rmt_esp32.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/fastled_delay.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/bitswap.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/controller.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/pixeltypes.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/lib8tion.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/lib8tion/math8.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/lib8tion/scale8.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/lib8tion/scale8.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/lib8tion/random8.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/lib8tion/trig8.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/color.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/fastpin.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/fastspi_types.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/dmx.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/platforms.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/platforms/esp/32/fastled_esp32.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/platforms/esp/32/fastpin_esp32.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/platforms/esp/32/clockless_rmt_esp32.h \
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2/tools/sdk/esp32c3/include/driver/include/driver/rmt.h \
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2/tools/sdk/esp32c3/include/esp_ringbuf/include/freertos/ringbuf.h \
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2/tools/sdk/esp32c3/include/soc/esp32c3/include/soc/rmt_struct.h \
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2/tools/sdk/esp32c3/include/hal/include/hal/rmt_types.h \
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2/tools/sdk/esp32c3/include/driver/include/driver/periph_ctrl.h \
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2/tools/sdk/esp32c3/include/soc/esp32c3/include/soc/periph_defs.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/fastled_progmem.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/hsv2rgb.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/colorutils.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/pixelset.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/colorpalettes.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/noise.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/power_mgt.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/fastspi.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/fastspi_bitbang.h \
- C:\Users\sethome\Documents\Arduino\libraries\FastLED\src/chipsets.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/fastled_progmem.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/hsv2rgb.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/colorutils.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/pixelset.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/colorpalettes.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/noise.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/power_mgt.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/fastspi.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/fastspi_bitbang.h \
+ C:\Users\sethome\Documents\Arduino\libraries\FastLED-3.5.0\src/chipsets.h \
  C:\Users\sethome\Documents\Arduino\libraries\LED_anima/LED_anima.hpp \
  C:\Users\sethome\Documents\Arduino\libraries\LED_anima/area.hpp \
  C:\Users\sethome\Documents\Arduino\libraries\LED_anima/LED_anima_Utility.hpp \
@@ -250,6 +250,7 @@ c:\Users\sethome\Desktop\The-RGB-display-case\build\sketch\RGB-display-code.ino.
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2\libraries\FS\src/FS.h \
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2\libraries\Ticker\src/Ticker.h \
  c:\Users\sethome\Desktop\The-RGB-display-case\build\sketch\LED.hpp \
+ C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2/tools/sdk/esp32c3/include/esp_system/include/esp_task_wdt.h \
  c:\Users\sethome\Desktop\The-RGB-display-case\build\sketch\WiFi.hpp \
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2\libraries\Update\src/Update.h \
  C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2\cores\esp32/MD5Builder.h \
@@ -269,5 +270,4 @@ c:\Users\sethome\Desktop\The-RGB-display-case\build\sketch\RGB-display-code.ino.
  C:\Users\sethome\Documents\Arduino\libraries\HomeSpan\src/HAPConstants.h \
  C:\Users\sethome\Documents\Arduino\libraries\HomeSpan\src/HapQR.h \
  C:\Users\sethome\Documents\Arduino\libraries\HomeSpan\src/Characteristics.h \
- C:\Users\sethome\Documents\Arduino\libraries\HomeSpan\src/Span.h \
- C:\Users\sethome\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.2/tools/sdk/esp32c3/include/esp_system/include/esp_int_wdt.h
+ C:\Users\sethome\Documents\Arduino\libraries\HomeSpan\src/Span.h

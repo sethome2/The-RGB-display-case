@@ -7,107 +7,155 @@
  * @FilePath: \The-RGB-display-case\code\website\display case control web - 中文版.html
 -->
 <!DOCTYPE html>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<html>
+<meta content="charset=utf-8" />
 
 <head>
-    <style type="text/css">
+    <title>RGB展示柜/RGB display case</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <style>
         .text-center {
             text-align: center;
         }
 
-        ;
+        .flex-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            background-color: lightgrey;
+        }
+
+        h {
+            font-size: larger;
+            margin: 8%;
+        }
     </style>
-    <title>RGB展示柜/RGB display case</title>
 </head>
 
-<body>
-    <nav class="text-center" style="font-size: x-large;">RGB display case web control</nav>
+<body style="background-color: lightgray;">
+    <nav class="text-center" style="font-size: x-large; margin-top: 5%; margin-bottom: 5%;">RGB display case web control
+        <div style="font-size:medium">
+            project repo: <a href="https://github.com/sethome2/The-RGB-display-case">The-RGB-display-case</a>
+        </div>
+    </nav>
+
+    <!--主要信息设置-->
     <div>
-        project site: <a>N/A</a>
-        project repo: <a href="https://github.com/sethome2/The-RGB-display-case">GITHUB</a>
+        <h style="text-align: center;">主要信息设置</h>
+        <div class="flex-container">
+            <ul>
+                <li>ip地址: WAIT_IP</li>
+                <li>模块ID: WAIT_ID</li>
+                <li>模块时间: WAIT_TIME</li>
+            </ul>
+            <form action="/change_module_info" method="POST">
+                模块名字
+                <input type="text" name="moduleName" value="WAIT_MODULE_NAME">
+                <input type="submit" value="更改">
+            </form>
+            <div>
+                <form action="/change_auto_switch_led" method="POST"> 更改自动开关时间
+                    自动关闭时间<input type="time" name="closeTime" value="WAIT_CLOSE_TIME" />
+                    自动打开时间<input type="time" name="openTime" value="WAIT_OPEN_TIME" />
+                    <input type="submit" value="更改">
+                </form>
+
+                <div>
+                    <button onclick="window.location.href='/open_led'">开启LED</button>
+                    <button onclick="window.location.href='/close_led'">关闭LED</button>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    <hr>
-    <h>模块信息</h>
-    <p>
-    <ul>
-        <li>ip地址:WAIT_IP</li>
-        <li>模块ID:WAIT_ID</li>
-        <li>模块时间:WAIT_TIME</li>
-    </ul>
-    </p>
-    <p>
-    <form action="/change_module_info" method="POST">
-        <p>
-            模块名字
-            <input type="text" name="moduleName" value="WAIT_MODULE_NAME">
-        </p>
-        <p>
-            <input type="submit" value="更改">
-        </p>
-    </form>
-    <br>
-    <button onclick="window.location.href='/open_led'">开启LED</button>
-    <button onclick="window.location.href='/close_led'">关闭LED</button>
-    <br><br>
-    <form action="/change_auto_switch_led" method="POST"> 更改自动开关时间
-        <p>
-            自动关闭时间<input type="time" name="closeTime" value="WAIT_CLOSE_TIME" />
-        </p>
-        <p>
-            自动打开时间<input type="time" name="openTime" value="WAIT_OPEN_TIME" />
-        </p>
-        <input type="submit" value="更改">
-    </form>
-    </p>
-    <hr>
-    <h>AP 设置</h>
-    <form action="/change_ap_setting" method="POST">AP设置
-        <p>
-            AP名称<input type="input" name="SSID" value="WAIT_AP_NAME" />
-        </p>
-        <p>
-            AP密码<input type="input" name="password" placeholder="密码长度大于8小于14，留空则无密码" />
-        </p>
-        <input type="submit" value="更改">
-    </form>
-    <button onclick="window.location.href='/c'">关闭AP（仅本次有效）</button>
-    <hr>
-    <h>连接 WIFI 设置</h>
-    <form action="/change_sta_setting" method="POST">连接WIFI设置
-        <p>
-            WIFI名称<input type="input" name="SSID" value="WAIT_STA_NAME" />
-        </p>
-        <p>
-            WIFI密码<input type="input" name="password" />
-        </p>
-        <input type="submit" value="更改">
-    </form>
-    <button onclick="window.location.href='/connection_info'">连接状态</button>
-    <hr>
-    <h>HomeKit设置</h>
-    <form action="/change_homekit_setting" method="POST">
-        <p>
-            HomeKit状态:
-            <input type="checkbox" name="status" WAIT_HOMEKIT_STATUS>
-        </p>
-        <p>
-            HomeKit配件名称
-            <input type="input" name="homeKitName" value="WAIT_HOMEKIT_NAME">
-        </p>
-        <input type="submit" value="更改">
-    </form>
-    <hr>
-    <h>其他设置设置</h>
-    <p>
-        <button onclick="window.location.href='/led_anima_setting'">进入动画设置</button>
-        <button onclick="window.location.href='/ota'">ota更新</button>
-        <button onclick="window.location.href='/reboot'">重启（大部分修改重启后生效）</button>
-    </p>
-    <hr>
-    <h>关于</h>
-    <p>made and designed by sethome</p>
+
+
+
+    <div class="flex-container">
+        <!--AP连接设置-->
+        <div>
+            <h style="justify-items: center;">AP 设置</h>
+            <div>
+                <form action="/change_ap_setting" method="POST">
+
+                    <div>
+                        <label for="name">AP名称</label>
+                        <input type="input" name="SSID" value="WAIT_AP_NAME" />
+                    </div>
+
+                    <div>
+                        <label for="name">AP密码</label>
+                        <input type="password" name="password" placeholder="密码长度大于8小于14，留空则无密码" />
+                    </div>
+
+                    <div>
+                        <input type="submit" value="更改">
+                    </div>
+
+                </form>
+            </div>
+            <button onclick="window.location.href='/c'">关闭AP（仅本次有效）</button>
+        </div>
+
+        <hr>
+
+        <!--连接 WIFI 设置-->
+        <div>
+            <h>连接 WIFI 设置</h>
+            <form action="/change_sta_setting" method="POST">
+                <div>
+                    <label for="name">WIFI名称</label>
+                    <input type="input" name="SSID" value="WAIT_STA_NAME" />
+                </div>
+
+                <div>
+                    <label for="name">WIFI密码</label>
+                    <input type="password" name="password" placeholder="留空则无密码" />
+                </div>
+
+                <div>
+                    <input type="submit" value="更改">
+                </div>
+            </form>
+
+            <button onclick="window.location.href='/connection_info'">连接状态</button>
+        </div>
+
+        <hr>
+
+        <!--HomeKit设置-->
+        <div>
+            <h>HomeKit设置</h>
+            <form action="/change_homekit_setting" method="POST">
+                <p>
+                    HomeKit状态:
+                    <input type="checkbox" name="status" WAIT_HOMEKIT_STATUS>
+                </p>
+                <p>
+                    HomeKit配件名称
+                    <input type="input" name="homeKitName" value="WAIT_HOMEKIT_NAME">
+                </p>
+                <input type="submit" value="更改">
+            </form>
+        </div>
+
+        <hr>
+
+        <!--其他设置-->
+        <div>
+            <h>其他设置设置</h>
+            <p>
+                <button onclick="window.location.href='/led_anima_setting'">进入动画设置</button>
+                <button onclick="window.location.href='/ota'">ota更新</button>
+                <button onclick="window.location.href='/reboot'">重启（大部分修改重启后生效）</button>
+            </p>
+        </div>
+    </div>
+
 </body>
 
-</html>
+<footer class="text-center" style="position: sticky;">
+    <h>关于</h>
+    <p>made and designed by sethome</p>
+</footer>

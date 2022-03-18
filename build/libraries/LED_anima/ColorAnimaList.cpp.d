@@ -13,4 +13,11 @@ c:\Users\sethome\Desktop\The-RGB-display-case\build\libraries\LED_anima\ColorAni
  c:\users\sethome\documents\arduino\libraries\led_anima\3dr_part\jsonxx\json_parser.hpp \
  c:\users\sethome\documents\arduino\libraries\led_anima\3dr_part\jsonxx\json_unicode.hpp \
  c:\users\sethome\documents\arduino\libraries\led_anima\3dr_part\jsonxx\json_serializer.hpp \
- c:\users\sethome\documents\arduino\libraries\led_anima\3dr_part\jsonxx\json_utils.hpp
+ c:\users\sethome\documents\arduino\libraries\led_anima\3dr_part\jsonxx\json_utils.hpp \
+ C:\Users\sethome\Documents\Arduino\libraries\LED_anima\ColorAnima/alwaysOn.cpp \
+ C:\Users\sethome\Documents\Arduino\libraries\LED_anima\ColorAnima/breath.cpp \
+ C:\Users\sethome\Documents\Arduino\libraries\LED_anima\ColorAnima/random.cpp \
+ C:\Users\sethome\Documents\Arduino\libraries\LED_anima\ColorAnima/randomRainbow.cpp \
+ C:\Users\sethome\Documents\Arduino\libraries\LED_anima\ColorAnima/rainbow.cpp \
+ C:\Users\sethome\Documents\Arduino\libraries\LED_anima\ColorAnima/colorFlow.cpp \
+ C:\Users\sethome\Documents\Arduino\libraries\LED_anima\ColorAnima/blink.cpp
