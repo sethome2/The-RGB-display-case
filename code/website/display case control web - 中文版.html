@@ -21,21 +21,50 @@
 
         .flex-container {
             display: flex;
+            flex-flow: row wrap;
             align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
+            justify-content: space-around;
             background-color: lightgrey;
         }
 
-        h {
+        .margin {
+            margin: 5% 3%;
+        }
+
+        input {
+            outline-style: none;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        button {
+            outline-style: none;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        p {
             font-size: larger;
-            margin: 8%;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .p1 {
+            font-size: large;
+        }
+
+        .p2 {
+            font-size: medium;
+        }
+
+        .p3 {
+            font-size: small;
         }
     </style>
 </head>
 
 <body style="background-color: lightgray;">
-    <nav class="text-center" style="font-size: x-large; margin-top: 5%; margin-bottom: 5%;">RGB display case web control
+    <nav class="text-center margin" style="font-size: x-large;">RGB display case web control
         <div style="font-size:medium">
             project repo: <a href="https://github.com/sethome2/The-RGB-display-case">The-RGB-display-case</a>
         </div>
@@ -43,119 +72,180 @@
 
     <!--主要信息设置-->
     <div>
-        <h style="text-align: center;">主要信息设置</h>
-        <div class="flex-container">
-            <ul>
-                <li>ip地址: WAIT_IP</li>
-                <li>模块ID: WAIT_ID</li>
-                <li>模块时间: WAIT_TIME</li>
-            </ul>
-            <form action="/change_module_info" method="POST">
-                模块名字
-                <input type="text" name="moduleName" value="WAIT_MODULE_NAME">
-                <input type="submit" value="更改">
-            </form>
+        <p>主要信息设置</p>
+        <div class="flex-container" style="justify-content: center">
             <div>
-                <form action="/change_auto_switch_led" method="POST"> 更改自动开关时间
-                    自动关闭时间<input type="time" name="closeTime" value="WAIT_CLOSE_TIME" />
-                    自动打开时间<input type="time" name="openTime" value="WAIT_OPEN_TIME" />
+                <label>
+                    <p class="p1">基本信息</p>
+                </label>
+
+                <ul class="margin">
+                    <li>ip地址: WAIT_IP</li>
+                    <li>模块ID/MAC地址: WAIT_ID</li>
+                    <li>模块时间: WAIT_TIME</li>
+                </ul>
+
+                <form class="margin" action="/change_module_info" method="POST">
+                    <label>模块名字</label>
+                    <input type="text" name="moduleName" value="WAIT_MODULE_NAME">
                     <input type="submit" value="更改">
                 </form>
+            </div>
+
+            <form class="margin text-center" action="/change_auto_switch_led" method="POST">
+                <label>
+                    <p class="p1">自动开关时间设置</p1>
+                </label>
 
                 <div>
-                    <button onclick="window.location.href='/open_led'">开启LED</button>
-                    <button onclick="window.location.href='/close_led'">关闭LED</button>
+                    <label> 自动关闭时间</label>
+                    <input type="time" name="closeTime" value="WAIT_CLOSE_TIME" />
                 </div>
+
+                <div>
+                    <label> 自动打开时间</label>
+                    <input type="time" name="openTime" value="WAIT_OPEN_TIME" />
+                </div>
+
+                <div class="text-center">
+                    <input type="submit" value="更改">
+                </div>
+            </form>
+
+            <div class="margin text-center">
+                <div>
+                    <script>
+                        function LED_status_color() {
+                            if (document.getElementById("LED_status").innerText == "open") {
+                                document.getElementById("LED_status").style.color = "#339933";
+                            }
+                            else {
+                                document.getElementById("LED_status").style.color = "#FF6666";
+                            }
+
+                        }
+                        setTimeout("LED_status_color()", "0");
+                    </script>
+
+                    <label>
+                        LED状态: <a id="LED_status" style="border: 1px solid #ccc; border-radius: 4px;">WAIT_LED_STATUS</a>
+                        <!--WAIT_LED_STATUS 有两种状态 打开(open) 与 关闭(close)-->
+                    </label>
+                </div>
+                <button onclick="window.location.href='/open_led'">开启LED</button>
+                <button onclick="window.location.href='/close_led'">关闭LED</button>
             </div>
         </div>
     </div>
+    </div>
 
-
+    <hr>
 
     <div class="flex-container">
         <!--AP连接设置-->
-        <div>
-            <h style="justify-items: center;">AP 设置</h>
+        <div class="margin">
+            <p>AP 设置</p>
             <div>
                 <form action="/change_ap_setting" method="POST">
 
                     <div>
-                        <label for="name">AP名称</label>
+                        <label>AP名称</label>
                         <input type="input" name="SSID" value="WAIT_AP_NAME" />
                     </div>
 
                     <div>
-                        <label for="name">AP密码</label>
+                        <label>AP密码</label>
                         <input type="password" name="password" placeholder="密码长度大于8小于14，留空则无密码" />
                     </div>
 
-                    <div>
+                    <div class="text-center">
                         <input type="submit" value="更改">
                     </div>
 
                 </form>
             </div>
-            <button onclick="window.location.href='/c'">关闭AP（仅本次有效）</button>
+
+            <div class="text-center margin">
+                <button onclick="window.location.href='/c'">关闭AP（仅本次有效）</button>
+            </div>
         </div>
 
-        <hr>
-
         <!--连接 WIFI 设置-->
-        <div>
-            <h>连接 WIFI 设置</h>
+        <div class="margin">
+            <p>连接 WIFI 设置</p>
             <form action="/change_sta_setting" method="POST">
                 <div>
-                    <label for="name">WIFI名称</label>
+                    <label>WIFI名称</label>
                     <input type="input" name="SSID" value="WAIT_STA_NAME" />
                 </div>
 
                 <div>
-                    <label for="name">WIFI密码</label>
+                    <label>WIFI密码</label>
                     <input type="password" name="password" placeholder="留空则无密码" />
                 </div>
 
-                <div>
+                <div class="text-center">
                     <input type="submit" value="更改">
                 </div>
             </form>
 
-            <button onclick="window.location.href='/connection_info'">连接状态</button>
+            <!--<button onclick="window.location.href='/connection_info'">连接状态</button>-->
+            <div class="margin text-center">
+                <script>
+                    function Connetion_status_color() {
+                        if (document.getElementById("connetion_status").innerText == "connected") {
+                            document.getElementById("connetion_status").style.color = "#339933";
+                        }
+                        else {
+                            document.getElementById("connetion_status").style.color = "#FF6666";
+                        }
+
+                    }
+                    setTimeout("Connetion_status_color()", "0");
+                </script>
+
+                <label>连接状态:
+                    <a id="connetion_status">WAIT_CONNETION_INFO</a>
+                    <!--WAIT_CONNETION_INFO 已连接(connected) 未连接(unconnect)-->
+                </label>
+            </div>
+
         </div>
 
-        <hr>
-
         <!--HomeKit设置-->
-        <div>
-            <h>HomeKit设置</h>
+        <div class="margin">
+            <p>HomeKit设置</p>
             <form action="/change_homekit_setting" method="POST">
-                <p>
-                    HomeKit状态:
+                <div>
+                    <label>HomeKit状态:</label>
                     <input type="checkbox" name="status" WAIT_HOMEKIT_STATUS>
-                </p>
-                <p>
-                    HomeKit配件名称
+                </div>
+
+                <div>
+                    <label>HomeKit配件名称</label>
                     <input type="input" name="homeKitName" value="WAIT_HOMEKIT_NAME">
-                </p>
-                <input type="submit" value="更改">
+                </div>
+
+                <div class="text-center">
+                    <input type="submit" value="更改">
+                </div>
             </form>
         </div>
 
-        <hr>
-
         <!--其他设置-->
-        <div>
-            <h>其他设置设置</h>
-            <p>
+        <div class="margin">
+            <p>其他设置设置</p>
+
+            <div style=" text-align: center;">
                 <button onclick="window.location.href='/led_anima_setting'">进入动画设置</button>
                 <button onclick="window.location.href='/ota'">ota更新</button>
                 <button onclick="window.location.href='/reboot'">重启（大部分修改重启后生效）</button>
-            </p>
+            </div>
         </div>
     </div>
 
 </body>
-
+<hr>
 <footer class="text-center" style="position: sticky;">
-    <h>关于</h>
-    <p>made and designed by sethome</p>
+    <p class="p2">made and designed by sethome</p>
 </footer>
