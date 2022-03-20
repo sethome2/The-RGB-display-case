@@ -7,7 +7,7 @@
   {
     "Sourcefile": null,
     "Include": "",
-    "Includepath": "C:\\Users\\sethome\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.2\\variants\\esp32c3"
+    "Includepath": "C:\\Users\\sethome\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.2\\variants\\esp32"
   },
   {
     "Sourcefile": "c:\\Users\\sethome\\Desktop\\The-RGB-display-case\\build\\sketch\\RGB-display-code.ino.cpp",

@@ -18,12 +18,14 @@ namespace WiFi_config
 {
   void init()
   {
+    MDNS.end();
+
     WiFi.mode(WIFI_AP);
     WiFi.hostname(config::moduleName.c_str());
 
     //默认IP地址为192.168.4.1
     WiFi.softAP(config::APname.c_str(), config::APpassword.c_str());
-    //WiFi.begin(config::STAname.c_str(), config::STApassword.c_str());
+    WiFi.begin(config::STAname.c_str(), config::STApassword.c_str());
 
     MDNS.begin(config::moduleName.c_str());
     MDNS.addService("https", "tcp", 80);

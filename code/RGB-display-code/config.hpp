@@ -111,7 +111,7 @@ namespace config
   {
     File f = SPIFFS.open(url.c_str(), FILE_WRITE);
     f.print(contain.c_str());
-    delay(1);
+    // delay(1);
     f.close();
   }
   //保存所有配置

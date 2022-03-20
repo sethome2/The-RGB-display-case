@@ -21,7 +21,7 @@
 #define FRONT_LED_NUM 8
 #define RIGHT_LED_NUM 8
 #define TOP_LED_NUM 64 //灯光配置 先后再左，然后前，接着右，最后上（即后左前右上排列LED编号在LED库中）
-#define LED_PIN 5      //LED引脚 D4 D1
+#define LED_PIN 13    //LED引脚 D4 D1 13
 
 #define TickerUpdataSpeed 0.01 //定义定时器，100HZ的刷新率
 
@@ -90,10 +90,11 @@ namespace LED
 
       if (config::LED_animaJson == "")
       {
+         //anima.bindArgv("{    \"area1\": {        \"LED_id\": [            0,            1,            2,            3,            4,            5,            6,            7,            8,            9,            10,            11,            12,            13,            14,            15,            16,            17,            18,            19,            20,            21,            22,            23,            24,            25,            26,            27,            28,            29,            30,            31        ],        \"anima\": {            \"color\": {                \"1\": {                    \"name\": \"colorFlow\",                    \"argv\": {                        \"frame\": \"1000\"                    }                }            },            \"LEDs\": {                \"1\": {                    \"name\": \"flow\",                    \"argv\": {                        \"frame\": \"100\"                    }                }            }        },        \"setColor\": 11162881    }}");
          anima.addArea("fuck", "{\"LED_id\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31],\"anima\":{\"color\":{\"1\":{\"argv\":{\"frame\":\"1000\"},\"name\":\"colorFlow\"}},\"LEDs\":{\"1\":{\"name\":\"flow\",\"argv\":{\"frame\":\"100\"}}}},\"setColor\":11162881}");
          Serial.println("init anima.");
       }
-      updataTicker.attach(1, change); //设定定时器
+      updataTicker.attach(TickerUpdataSpeed, change); //设定定时器
 
       autoOpen_close.attach(10, cheakTime); //设定定时器
    }

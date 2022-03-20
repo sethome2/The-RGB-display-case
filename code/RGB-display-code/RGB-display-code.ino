@@ -58,15 +58,20 @@ void setup()
 
   Web::init();
   LED::init();
+
+  // disable the wacthDog because web control is use too much time. (over 1s)
+  // that will cause system reboot.
+  // If you konw how to solove, please tell me in issue.
+  disableLoopWDT();
+  disableCore0WDT();
+  disableCore1WDT();
 }
+
 void loop()
 {
   if (config::homeKitStatus)
     homeKit::loop();
   Web::loop();
-
-  // disableLoopWDT();
-  // disableCore0WDT();
-  // Serial.printf("%lld\n",ESP.getFreeHeap());
-  // FastLED.show();
+  
+  //Serial.printf("%lld\n",ESP.getFreeHeap()); // test the memory usage
 }

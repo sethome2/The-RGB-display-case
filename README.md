@@ -10,8 +10,15 @@ The RGB display case（ver 3.0）
 
 author:sethome(cc/相相) PS:all is one man,but three names.(so strange,lol)
 
-The RGB display case can make your exhibits more better. The display case used esp32 (compatible with C3, S2) and ws2811/ws2812 Led,you can buy them at taobao or ailexpress(7$) If you went to see the ver2.0 display case,please open the link below the line. 
+The RGB display case can make your exhibits more better. The display case used esp32 (compatible with C3, S2) and ws2811/ws2812 Led,you can buy them at taobao or ailexpress(10$) If you went to see the ver2.0 display case,please open the link below the line. 
 
 (中文)https://www.bilibili.com/video/BV1Lk4y127xm/ 
 (English)
 
+# Make
+
+# Build
+
+---
+recommand build setting
+[ESP32]()

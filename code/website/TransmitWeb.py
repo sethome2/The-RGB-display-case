@@ -1,9 +1,9 @@
 '''
-Author: your name
+Author: sethome
 Date: 2021-09-16 20:10:06
 LastEditTime: 2021-09-19 17:52:39
-LastEditors: Please set LastEditors
-Description: In User Settings Edit
+LastEditors: sethome
+Description: to transform the html file to C/C++ string
 FilePath: \code\website\TransmitWeb.py
 '''
 import os
@@ -19,6 +19,9 @@ for fileName in pathDir:
     a = File.read(1)
     if a == "":
       break
+    elif a == "\\":
+      newFile.write("\\\\")
+      continue
     elif a == "\"":
       newFile.write("\\\"")
       continue

@@ -1,30 +1,27 @@
 <!DOCTYPE html>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<html>
 
 <head>
 	<style type="text/css">
-		h {
-			font-family: arial;
-			font-size: 30px
-		}
-
-		p {
-			font-family: arial;
-			font-size: 15px
+		.text-center {
+			text-align: center;
 		}
 	</style>
-	<title>RGB display case</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+
+	<title>RGB Display Case Update</title>
 </head>
 
-<body>
-	<h style="background-color:rgba(0,255,255,0.5)">RGB display case web control</h>
-	<p>
-		project site:
-		<a href="https://github.com/sethome2/The-RGB-display-case">GITHUB</a>
-	</p>
-	<form method='POST' action='/update' enctype='multipart/form-data'>上传OTA更新
-		<input type='file' name='update'>
-		<input type='submit' value='Update'>
-	</form>
+<body style="background-color: lightgray;">
+	<nav style="font-size: xx-large; text-align: center; margin: 5% auto;
+		">RGB Display Case Web Update
+	</nav>
+
+	<div class="text-center" style="font-size:medium">
+		<form method='POST' action='/update' enctype='multipart/form-data'>UpdateFile
+			<input type='file' name='update'>
+			<input type='submit' value='Update'>
+		</form>
+	</div>
 </body>

@@ -1,19 +1,18 @@
 <!--
- * @Author: your name
+ * @Author: sethome
  * @Date: 2021-09-16 12:19:09
  * @LastEditTime: 2022-02-03 17:45:06
- * @LastEditors: Please set LastEditors
- * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @LastEditors: sethome
+ * @Description: RGB_Display_Case web control
  * @FilePath: \The-RGB-display-case\code\website\display case control web - 中文版.html
 -->
 <!DOCTYPE html>
-<meta content="charset=utf-8" />
 
 <head>
     <title>RGB展示柜/RGB display case</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
     <style>
         .text-center {
             text-align: center;
@@ -65,7 +64,7 @@
 
 <body style="background-color: lightgray;">
     <nav class="text-center margin" style="font-size: x-large;">RGB display case web control
-        <div style="font-size:medium">
+        <div class="p2">
             project repo: <a href="https://github.com/sethome2/The-RGB-display-case">The-RGB-display-case</a>
         </div>
     </nav>
@@ -92,25 +91,27 @@
                 </form>
             </div>
 
-            <form class="margin text-center" action="/change_auto_switch_led" method="POST">
-                <label>
-                    <p class="p1">自动开关时间设置</p1>
-                </label>
+            <div>
+                <form class="margin text-center" action="/change_auto_switch_led" method="POST">
+                    <label>
+                        <p class="p1">自动开关时间设置</p1>
+                    </label>
 
-                <div>
-                    <label> 自动关闭时间</label>
-                    <input type="time" name="closeTime" value="WAIT_CLOSE_TIME" />
-                </div>
+                    <div>
+                        <label> 自动关闭时间</label>
+                        <input type="time" name="closeTime" value="WAIT_CLOSE_TIME" />
+                    </div>
 
-                <div>
-                    <label> 自动打开时间</label>
-                    <input type="time" name="openTime" value="WAIT_OPEN_TIME" />
-                </div>
+                    <div>
+                        <label> 自动打开时间</label>
+                        <input type="time" name="openTime" value="WAIT_OPEN_TIME" />
+                    </div>
 
-                <div class="text-center">
-                    <input type="submit" value="更改">
-                </div>
-            </form>
+                    <div class="text-center">
+                        <input type="submit" value="更改">
+                    </div>
+                </form>
+            </div>
 
             <div class="margin text-center">
                 <div>
@@ -128,10 +129,12 @@
                     </script>
 
                     <label>
-                        LED状态: <a id="LED_status" style="border: 1px solid #ccc; border-radius: 4px;">WAIT_LED_STATUS</a>
+                        LED状态: <a id="LED_status"
+                            style="border: 1px solid #ccc; border-radius: 4px;">WAIT_LED_STATUS</a>
                         <!--WAIT_LED_STATUS 有两种状态 打开(open) 与 关闭(close)-->
                     </label>
                 </div>
+
                 <button onclick="window.location.href='/open_led'">开启LED</button>
                 <button onclick="window.location.href='/close_led'">关闭LED</button>
             </div>
@@ -166,7 +169,7 @@
             </div>
 
             <div class="text-center margin">
-                <button onclick="window.location.href='/c'">关闭AP（仅本次有效）</button>
+                <button onclick="window.location.href='/close_ap'">关闭AP（仅本次有效）</button>
             </div>
         </div>
 
