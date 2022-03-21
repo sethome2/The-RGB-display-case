@@ -18,18 +18,21 @@ namespace WiFi_config
 {
   void init()
   {
-    MDNS.end();
+    // MDNS.end();
 
-    WiFi.mode(WIFI_AP);
+    WiFi.mode(WIFI_MODE_APSTA);
     WiFi.hostname(config::moduleName.c_str());
 
     //默认IP地址为192.168.4.1
     WiFi.softAP(config::APname.c_str(), config::APpassword.c_str());
     WiFi.begin(config::STAname.c_str(), config::STApassword.c_str());
 
-    MDNS.begin(config::moduleName.c_str());
-    MDNS.addService("https", "tcp", 80);
-    MDNS.addService("http", "tcp", 80);
+    if (config::moduleName != "")
+    {
+      MDNS.begin(config::moduleName.c_str());
+      MDNS.addService("https", "tcp", 80);
+      MDNS.addService("http", "tcp", 80);
+    }
   }
 
   void disableAP() { WiFi.softAPdisconnect(true); }

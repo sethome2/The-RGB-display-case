@@ -7,9 +7,9 @@
 
  * @LastEditTime: 2022-03-13 22:56:23
 
- * @LastEditors: Please set LastEditors
+ * @LastEditors: sethome
 
- * @Description: In User Settings Edit
+ * @Description: RGB_Display_Case main code
 
  * @FilePath: \The-RGB-display-case\code\RGB-display-code\RGB-display-code.ino
 
@@ -70,12 +70,12 @@ void setup()
   Web::init();
   LED::init();
 
-  // disable the wacthDog because web control is use too much time. (over 1s)
+  // disable the wacthDog because web control is use too much time. (over 1s in AP, but 0.3s in STA) 
   // that will cause system reboot.
   // If you konw how to solove, please tell me in issue.
   disableLoopWDT();
   disableCore0WDT();
-  disableCore1WDT();
+  disableCore1WDT(); // ESP32C3 doesn't had
 }
 
 void loop()

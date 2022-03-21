@@ -2,7 +2,7 @@
  * @Author: your name
  * @Date: 2021-09-16 19:55:32
  * @LastEditTime: 2022-03-13 23:25:32
- * @LastEditors: Please set LastEditors
+ * @LastEditors: sethome
  * @Description: In User Settings Edit
  * @FilePath: \The-RGB-display-case\code\RGB-display-code\LED.hpp
  */

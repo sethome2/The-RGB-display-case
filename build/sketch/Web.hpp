@@ -128,7 +128,7 @@ namespace htmlCode
     unsigned int index = 0;
     index = animaWeb.find("WAIT_JSON", index);
     if (index != std::string::npos)
-        animaWeb.replace(index, 9, config::homeKitName);
+        animaWeb.replace(index, 9, config::LED_animaJson);
 
     return animaWeb;
   }
@@ -234,7 +234,7 @@ namespace Web
       config::moduleName = server.arg("moduleName").c_str();
 
     // config::saveAll();
-    config::save(config::moduleName_Url, config::moduleName_Url);
+    config::save(config::moduleName_Url, config::moduleName);
 
     server.sendHeader("Location", "/");
     server.send(303);
